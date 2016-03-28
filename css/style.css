@@ -2,14 +2,8 @@ img{
 	max-width: 100%;
 }
 header{
-	margin-top: 5px;
 	background-color: #4D4848;
-	padding: 10px;
-	display: inline-block;
-	position: relative;
-	left: 14%;
 	text-align: right;
-	width: 72%;
 }
 .nav-header a{
 	color: white;
@@ -29,56 +23,55 @@ body{
 	margin: 0 auto;
 }
 .container2{
-	background-color: #D9EAED;
-	position: relative;
-	width: 72%;
-	right:-14%;
-	padding: 10px;
+	background-color: #E7E8EE; 
+	padding: 20px;
+	line-height: 13px;
+	white-space: nowrap;
 }
-.top{
-	width: 200px;
-	height: 200px;
-	border: solid white 2px;
-	padding: 3px;
-	position: relative;
-	overflow: hidden;
-	float: left;
-	margin-left: 10px;
+.caja{
+	background-color: #E7E8EE;
+	border-bottom: solid #6D6767 1px;
+}
+.caja2{
 	margin-top: 10px;
 
 }
+.container3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+}
+.top{
+	max-width: 100%;
+}
 .top2{
 	text-decoration: none;
-	position: relative;
-	top: 100%;
-	left: 20%;
+	font-size: x-large;
+	font-weight: bolder;
+	display: block;
+	margin-top: 10px;
+}
+.caja1{
+	padding: 20px;
 }
 .top1{
 	text-decoration: none;
 	color: #5E6A80;
-	text-align: center;
-	font-size: 12px;
 	font-family: Arial;
-	font-style: bolder;
-	display: inline-block;
-
+	font-size: 12px;
 }
-span{
+h5{
 	color: #4454A3;
 	font-family: "Arial";
-	font-weight: bold;
+	font-style: bolder;
+	text-align: center;
 }
 h3{
 	font-size: 18px;
 	display: inline-block;
 	font-family: Arial;
 }
-.caja{
-	padding: 10px;
-	position: relative;
-	left: 13%;
 
-}
 .discos{
 	padding: 5px;
 	border: solid 1px #F3E9E9;
@@ -93,26 +86,18 @@ h3{
 	font-style: bolder;
 	display: block;
 }
-.aside{
-	position: relative;
-	left: 55%;
-}
+
 hr{
 	border: -2 solid black;
 	margin-bottom: 20px;
 }
+.aside ul{
+	margin: 0;
+	list-style: none;
+}
 .aside img{
 	display: inline-block;
-	width: 10%;
-	margin-right: 2px;
-}
-section{
-	float: left;
-	display: inline-block;
-}
-.aside li{
-	margin: 5px;
-	display: inline;
+	width: 15px;
 }
 .aside a{
 	font-family: Arial;
@@ -123,7 +108,31 @@ section{
 }
 h4, p{
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 12px;
 	margin-top: 5px;
 	padding: 3px;
+}
+footer {
+	background-color: #4D4848;
+	padding: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+}
+.footer1 p{
+	text-align: left;
+	margin: auto;
+}
+.footer1 ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+}
+.footer1 a{
+	color: #DADADA;
+	text-decoration: none;
+	font-family: Arial;
+	display: inline;
+	font-size: 12px;
 }
